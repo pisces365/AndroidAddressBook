@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_name"
+        android:text="姓名"
+        android:textSize="20dp"
+        android:textColor="@color/B_group_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="请输入姓名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:text="电话"
+        android:textSize="20dp"
+        android:textColor="@color/B_group_1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/et_phone"
+        android:hint="请输入电话"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:id="@+id/tv_work"
+        android:text="工作单位"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/B_group_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/et_work"
+        android:hint="请输入工作单位"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:text="家庭住址"
+        android:textSize="20dp"
+        android:textColor="@color/B_group_1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/et_address"
+        android:hint="请输入家庭住址"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+</LinearLayout>
